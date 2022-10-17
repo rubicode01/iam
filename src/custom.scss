@@ -1,0 +1,87 @@
+$body-bg: rgb(255, 255, 255);
+$enable-shadows: (
+  property: box-shadow,
+  class: shadow,
+  values: (
+    none: none,
+  ),
+);
+
+:root {
+  //   --blue: #007bff;
+  //   --indigo: #6610f2;
+  //   --purple: #6f42c1;
+  //   --pink: #e83e8c;
+  //   --red: #dc3545;
+  //   --orange: #fd7e14;
+  //   --yellow: #ffc107;
+  //   --green: #28a745;
+  //   --teal: #20c997;
+  //   --cyan: #17a2b8;
+  //   --white: #fff;
+  //   --gray: #6c757d;
+  //   --gray-dark: #343a40;
+  //   --primary: #007bff;
+  //   --secondary: #6c757d;
+  //   --success: #28a745;
+  //   --info: #17a2b8;
+  //   --warning: #ffc107;
+  //   --danger: #dc3545;
+  //   --light: #f8f9fa;
+  //   --dark: #343a40;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+}
+
+// stylelint-disable value-keyword-case
+$font-family-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto,
+  "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+  "Liberation Mono", "Courier New", monospace;
+
+// $font-size-root affects the value of `rem`, which is used for as well font sizes, paddings, and margins
+// $font-size-base affects the font size of the body text
+$font-size-root: null;
+$font-size-base: 1rem; // Assumes the browser default, typically `16px`
+$font-size-sm: $font-size-base * 0.875;
+$font-size-lg: $font-size-base * 1.25;
+
+$font-weight-lighter: lighter;
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+$font-weight-bolder: bolder;
+
+$font-weight-base: $font-weight-normal;
+
+$line-height-base: 1.5;
+$line-height-sm: 1.25;
+$line-height-lg: 2;
+
+$h1-font-size: $font-size-base * 7;
+//ursprünglich *5
+$h2-font-size: $font-size-base * 2;
+$h3-font-size: $font-size-base * 1.25;
+$h4-font-size: $font-size-base * 1;
+$h5-font-size: $font-size-base * 1;
+$h6-font-size: $font-size-base;
+
+$font-sizes: (
+  1: $h1-font-size,
+  2: $h2-font-size,
+  3: $h3-font-size,
+  4: $h4-font-size,
+  5: $h5-font-size,
+  6: $h6-font-size,
+);
+
+@import "~bootstrap/scss/bootstrap.scss";

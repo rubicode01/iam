@@ -16,6 +16,11 @@
   --overlay-color: rgb(12 12 12 / 63%);
 }
 
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+
 html,
 body {
   height: 100%;
@@ -29,22 +34,296 @@ body {
   color: var(--text-color);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  padding-top: 60px;
-  border-left: 10px solid var(--primary-color);
-  border-right: 10px solid var(--primary-color);
+  /* padding-bottom: 60px; */
+  /* border-left: 10px solid var(--primary-color);
+  border-right: 10px solid var(--primary-color); */
+}
+
+.all {
+  width: 100%;
+  height: auto;
+  clear: both;
+  float: left;
+  position: relative;
+}
+
+.ip_section {
+  width: 100%;
+  height: auto;
+  clear: both;
+  float: left;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  padding: 0 40px;
+  position: relative;
+  clear: both;
+}
+@media screen and (max-width: 767px) {
+  .container {
+    padding: 0 15px;
+  }
+}
+
+section {
+  display: block;
+}
+@media screen and (max-width: 992px) {
+  .section {
+    padding: 60px 0;
+  }
+}
+
+.ip_about {
+  width: 100%;
+  height: auto;
+  clear: both;
+  float: left;
+  padding: 150px 0;
+}
+@media screen and (max-width: 992px) {
+  .ip_about {
+    padding: 60px 0;
+  }
+}
+.ip_about .about_inner {
+  width: 100%;
+  height: auto;
+  clear: both;
+  display: flex;
+  /* align-items: center; */
+}
+.ip_about .left {
+  width: 40%;
+  padding-right: 50px;
+}
+.ip_about .left .image {
+  position: relative;
+}
+.ip_about .left .image img {
+  min-width: 100%;
+  opacity: 0;
+}
+.ip_about .left .main {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+}
+@media screen and (max-width: 767px) {
+  .ip_about .left .main {
+    box-shadow: none;
+  }
+}
+
+/*experience section*/
+.ip_about .experience span {
+  display: block;
+}
+.ip_about .experience .year {
+  font-size: 80px;
+  font-weight: 800;
+  font-family: "Poppins";
+  color: #fff;
+  margin-bottom: 3px;
+  line-height: 1;
+  font-style: italic;
+}
+.ip_about .experience .text {
+  color: #fff;
+  font-style: italic;
+  font-family: "Poppins";
+  opacity: 0.7;
+}
+.ip_about .right {
+  width: 60%;
+  padding-left: 50px;
+}
+
+.ip_about .center {
+  width: 100%;
+  padding-left: auto;
+  padding-right: auto;
+}
+.ip_about .center .text {
+  margin-bottom: 40px;
+  padding-top: 27px;
+}
+.ip_about .right .text {
+  margin-bottom: 40px;
+  padding-top: 27px;
+}
+.ip_about .right .text,
+.shane_tm_button {
+  width: 100%;
+  height: auto;
+  clear: both;
+  float: left;
+}
+.shane_tm_button a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #000;
+  display: inline-block;
+  padding: 13px 48px;
+  border: 2px solid #000;
+  font-family: "Poppins";
+  transition: all 0.5s cubic-bezier(0, 0, 0.1, 1);
+  cursor: pointer !important;
+}
+@media screen and (max-width: 992px) {
+  .shane_tm_button a {
+    padding: 8px 25px;
+  }
+}
+.shane_tm_button a:hover {
+  color: #000;
+  background-color: transparent;
+  -webkit-transform: translateY(-3px);
+  transform: translateY(-3px);
+}
+
+@media (max-width: 1040px) {
+  .ip_about .about_inner {
+    flex-direction: column;
+  }
+  .ip_about .left {
+    padding-right: 0;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .ip_about .right {
+    padding-left: 0;
+    width: 100%;
+  }
+  .ip_about .center {
+    padding-left: 0;
+    width: 100%;
+  }
+}
+
+.img {
+  min-height: 100%;
+  min-width: 100%;
+  height: 300px;
+  padding: 10px 10px 10px 10px;
+  object-fit: cover;
+  vertical-align: middle;
+  transition: -webkit-transform 1s cubic-bezier(0, 0, 0.2, 1);
+  transition: transform 1s cubic-bezier(0, 0, 0.2, 1);
+  transition: transform 1s cubic-bezier(0, 0, 0.2, 1),
+    -webkit-transform 1s cubic-bezier(0, 0, 0.2, 1);
+}
+/*headline*/
+
+/* .position-relative {
+  position: relative;
+}
+
+.title-full {
+  width: 100%;
+  height: auto;
+  clear: both;
+  float: left;
+}
+
+.headline-flex {
+  width: 100%;
+  height: auto;
+  clear: both;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+/*portfolio*/
+
+.portfolio {
+  width: 100%;
+  height: auto;
+  clear: both;
+  float: left;
+
+  padding: 150px 0 100px;
+}
+.portfolio_list {
+  width: 100;
+  height: auto;
+  clear: both;
+  float: left;
+  padding-top: 89px;
+}
+*/
+/* .section {
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+  align-items: center;
+  align-content: center;
+  margin: 0em auto 0em auto;
+} */
+
+.content {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(20px + 2vmin);
 }
 
 ul {
   list-style: none;
 }
 
-h1,
-h2,
-h3,
-h4,
+h1 {
+  font-weight: 800;
+
+  text-transform: uppercase;
+  text-align: center;
+  animation: slideHeadline 1s ease 0s 1 normal forwards;
+}
+
+.marker-white {
+  display: inline;
+  background-color: white;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 3em;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+h3 {
+  font-weight: 300;
+
+  letter-spacing: 0.2rem;
+
+  text-transform: uppercase;
+}
+h4 {
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+
+  text-transform: uppercase;
+}
 h5,
 h6 {
-  font-family: "Montserrat", "Roboto", sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  color: darkgrey;
 }
 
 a,
@@ -53,8 +332,55 @@ a:hover {
 }
 
 p {
+  font-size: 1em;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: 300;
+  /* letter-spacing: 0.1em; */
   word-break: break-word;
   hyphens: auto;
+}
+
+/* .title {
+  width: 100%;
+  height: auto;
+  clear: both;
+  float: left;
+} */
+
+span.title {
+  /* --vh: 9.02px; */
+  line-height: 30px;
+  word-wrap: break-word;
+  background: transparent;
+  border: 0;
+  margin: 0;
+  vertical-align: baseline;
+  outline: none;
+  box-sizing: border-box;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.05);
+  text-transform: uppercase;
+  padding: 4px 10px;
+  font-weight: 600;
+  font-size: 12px;
+  color: #333;
+  letter-spacing: 0.1em;
+  margin-bottom: 15px;
+
+  /* display: inline-block;
+  background-color: rgba(0, 0, 0, 0.05);
+  text-transform: uppercase;
+  padding: 4px 10px;
+  font-weight: 600;
+  font-size: 12px;
+  color: black;
+  font-family: "Montserrat";
+  letter-spacing: 0;
+  margin-bottom: 15px; */
 }
 
 .ovhidden {
