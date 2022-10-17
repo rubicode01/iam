@@ -1,21 +1,29 @@
 import "./App.css";
 
+import Footer from "./components/footer/Footer";
+import About from "./pages/about/About";
+import Contact from "./pages/contact/Contact";
+import Home from "./pages/home/Home";
+import Portfolio from "./pages/portfolio/Portfolio";
+import Skills from "./pages/skills/Skills";
+import Timeline from "./pages/timeline/Timeline";
+import ScrollButton from "./assets/ScrollButton";
+
+import Header from "./pages/header/Header";
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="all">
+      <Header />
+      <Home />
+      <About />
+      <Timeline />
+      <Portfolio />
+      <Skills />
+      <Contact />
+
+      <ScrollButton />
+      <Footer />
     </div>
   );
 }

@@ -2,31 +2,21 @@ const logo = "IP";
 const meta = {
   title: "IP [Design+Code]",
   description: "Design meets Code",
+  text: "",
 };
 
 const datahome = {
-  title: "Design meets Code",
-  //   animated: {
-  //     first: "Design",
-  //     second: "meets",
-  //     third: "Code",
-  //   },
-  description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-  your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
-};
-
-const dataintro = {
-  title: "Intro",
-  description:
-    "Lange habe ich überlegt, wie ich diese Seite aufbauen soll und eines sei vorab gesagt, es war tatsächlich nicht so einfach das Richtige auszuwählen. Wie soll die Seite aussehen? Struktur, Bilder, Headlines, Farben, Typographie, etc. Wie sollte ich die Seite bennennen? Portfolio? Hat irgendwie jeder... einfach meinen Namen einfügen? Hat auch irgendwie jeder...Wieviel Effekte und Animationen sind gut? Es gibt so viele Dinge die mir durch den Kopf gegangen sind und Schlussendlich habe ich mich dazu entschlossen, es einfach zu halten...",
+  title: "Design meets Code ",
+  description: "lorem ipsum",
+  content: "",
 };
 
 const dataabout = {
-  title: "I'M A DESIGNER",
-  description:
-    "VOM ALLTAG INSPIRIERT,UM NEUE NUTZERERLEBNISSE UND KREATIVE LÖSUNGEN ZU SCHAFFEN",
-  aboutme: "some text here about me",
+  title: "ABOUT",
+  description: "I'm a Designer",
+  content:
+    "Vom alltag inspieriert, um neue Nutzererlebnisse und kreative Lösungen zu schaffen",
+  info: "Ich bin Webdesigner, und ich bin sehr leidenschaftlich und engagiert bei meiner Arbeit. Mit 20 Jahren Erfahrung als professioneller Webentwickler habe ich mir die Fähigkeiten und Kenntnisse angeeignet, die notwendig sind, um Ihr Projekt zum Erfolg zu führen. Ich genieße jeden Schritt des Designprozesses, von der Diskussion bis zur Zusammenarbeit.",
 };
 
 const datatimeline = {
@@ -84,55 +74,68 @@ const datatimeline = {
   ],
 };
 
-const dataskills = [
-  {
-    name: "HTML",
-    value: 90,
-  },
-  {
-    name: "CSS",
-    value: 85,
-  },
-  {
-    name: "JavaScript",
-    value: 60,
-  },
-  {
-    name: "React",
-    value: 60,
-  },
-  {
-    name: "Graphic Design",
-    value: 95,
-  },
-];
+const dataskills = {
+  title: "Web & App Design & Grafiken",
+  description: "was ich kann",
+  info: "Ich habe hohe Fähigkeiten in der Entwicklung und Programmierung. Ich arbeite an einer professionellen, visuell anspruchsvollen und technologisch kompetenten, reaktionsschnellen und multifunktionalen persönlichen Portfolio-Vorlage.",
+  skills: [
+    {
+      name: "Graphic-Design",
+      value: 75,
+    },
+    {
+      name: "HTML, CSS & Frameworks",
+      value: 80,
+    },
+    {
+      name: "Frontend",
+      value: 70,
+    },
+    {
+      name: "Backend",
+      value: 70,
+    },
 
-const dataportfolio = [
-  {
-    img: "https://picsum.photos/400/?grayscale",
-    desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/800/?grayscale",
-    desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/?grayscale",
-    desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/600/?grayscale",
-    desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-];
+    {
+      name: "Xtras",
+      value: 95,
+    },
+  ],
+};
+
+const dataportfolio = {
+  title: "Meine Arbeiten",
+  description: "inspirationen",
+  portfolio: [
+    {
+      img: "https://picsum.photos/400/600/?grayscale",
+      description: "DESIGN in the elimination of non-essentials.",
+      link: "#",
+      tag: "design",
+    },
+    {
+      img: "https://picsum.photos/400/600/?grayscale",
+      description:
+        "CODE: The wisdom of life consists in the elimination of non-essentials.",
+      link: "#",
+      tag: "code",
+    },
+    {
+      img: "https://picsum.photos/400/600/?grayscale",
+      description:
+        "BRAND: The wisdom of life consists in the elimination of non-essentials.",
+      link: "#",
+      tag: "brand",
+    },
+    {
+      img: "https://picsum.photos/400/600/?grayscale",
+      description:
+        "BRAND: The wisdom of life consists in the elimination of non-essentials.",
+      link: "#",
+      tag: "brand",
+    },
+  ],
+};
 
 const contactConfig = {
   title: "Intersse Geweckt?",
@@ -151,13 +154,14 @@ const contactConfig = {
 const datasocial = {
   github: "https://github.com",
   linkedin: "https://linkedin.com",
+  email: "mailto:rubicode01@gmx.de",
 };
 
 export {
   logo,
   meta,
   datahome,
-  dataintro,
+  // dataintro,
   dataabout,
   datatimeline,
   dataskills,
