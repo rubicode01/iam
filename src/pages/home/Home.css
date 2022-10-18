@@ -9,29 +9,6 @@
   transition: all 0.5s ease-in;
 }
 
-.who_am_I {
-  font-family: "Montserrat";
-}
-
-.has-first-color {
-  color: var(--primary-color);
-}
-
-.btn-portfolio {
-  background: var(--primary-color);
-  border-radius: 0;
-}
-
-.btn-portfolio a {
-  color: #000;
-  text-decoration: none;
-}
-
-.btn-about a {
-  color: var(--text-color);
-  text-decoration: none;
-}
-
 .intro_sec {
   height: calc(100vh - 60px);
   min-height: 700px;

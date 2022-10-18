@@ -23,7 +23,15 @@ const About = () => {
               // data-aos-mirror="true"
               data-aos-once="true"
             >
-              <p>{dataabout.info}</p>
+              <p>
+                Ich bin Grafikerin und liebe die Kombination aus "digitaler
+                Kunst" und Programmieren. <br />
+                Seit 2001 habe ich Freude daran, komplexe Probleme in einfache,
+                schöne und individuelle Designs zu verwandeln. Wenn ich nicht
+                gerade Pixel hin- und herrücke, habe ich großen Spaß daran
+                Webseiten zu entwickeln oder mit Freunden und Familie Zeit zu
+                verbringen.
+              </p>
             </div>
           </div>
         </div>

@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import { Button } from "./Styles";
 
-import "./ScrollButton.css";
-
 const ScrollButton = () => {
   const [visible, setVisible] = useState(false);
   const toggleVisible = () => {
@@ -27,10 +25,6 @@ const ScrollButton = () => {
         <span class="m_scroll_arrows two"></span>
         <span class="m_scroll_arrows three"></span>
       </div>
-      {/* <FaArrowCircleUp
-        onClick={scrollToTop}
-        style={{ display: visible ? "inline" : "none" }}
-      /> */}
     </Button>
   );
 };

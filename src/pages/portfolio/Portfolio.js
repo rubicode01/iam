@@ -16,34 +16,66 @@ const Portfolio = () => {
   const allItems = dataportfolio.portfolio.map((data, i) => (
     <div key={i}>
       <div>
-        <img src={data.img} alt="" />
+        <a href={data.link} rel="noopener noreferrer" target={"_blank"}>
+          <img src={data.img} alt="protfolio" />
+        </a>
       </div>
     </div>
   ));
 
-  const brandProject = dataportfolio.portfolio.filter(
-    (brands) => brands.tag === "brand"
-  );
-  const brandItems = brandProject.map((brand) => <p>{brand.tag}</p>);
+  // const brandProject = dataportfolio.portfolio.filter(
+  //   (brands) => brands.tag === "brand"
+  // );
+  // const brandItems = brandProject.map((brand) => (
+  //   <a href={brand.link} rel="noopener noreferrer" target={"_blank"}>
+  //     <img src={brand.img} alt="brand" />
+  //   </a>
+  // ));
 
   const codeProject = dataportfolio.portfolio.filter(
     (codes) => codes.tag === "code"
   );
-  const codeItems = codeProject.map((code) => <p>{code.description}</p>);
+  const codeItems = codeProject.map((code) => (
+    <div>
+      <a href={code.link} rel="noopener noreferrer" target={"_blank"}>
+        <img src={code.img} alt="code" />
+      </a>
+      <p className="imgheadline">{code.headline}</p>
+      <p className="imgtext">
+        {code.description}
+        <br />
+        {code.skills}
+      </p>
+    </div>
+  ));
 
   const designProject = dataportfolio.portfolio.filter(
     (designs) => designs.tag === "design"
   );
-  const designItems = designProject.map((design) => <p>{design.tag}</p>);
+  const designItems = designProject.map((design) => (
+    <div>
+      <img src={design.img} alt="design" />
+      <p className="imgheadline">{design.headline}</p>
+      <p className="imgtext">
+        {design.description} <br />
+        {design.skills}
+      </p>
+    </div>
+  ));
   return (
     <div className="ip_section" id="portfolio">
       <div className="ip_about">
         <div className="container">
           <div className="about_inner">
             <div className="left">
-              <span className="title">portfolio</span>
-              <h2>{dataportfolio.title}</h2>
-              <p className="marker-white">{dataportfolio.description}</p>
+              <span className="title">{dataportfolio.title}</span>
+              <h2>{dataportfolio.description}</h2>
+              <p>
+                Es ist keine leichte Aufgabe, ein Portfolio über sich selbst zu
+                erstellen, um das zu symbolisieren was man ist und was man kann.
+                Dies ist nur ein kleiner Auszug meiner Arbeiten und der
+                Kombination aus digitaler Kunst und Programmieren.
+              </p>
             </div>
             <div className="right">
               <div className="tab">
@@ -66,12 +98,12 @@ const Portfolio = () => {
                   >
                     Code
                   </li>
-                  <li
+                  {/* <li
                     className={`tabs ${getActiveClass(4, "active-tabs")}`}
                     onClick={() => toggleTab(4)}
                   >
                     Brand
-                  </li>
+                  </li> */}
                 </ul>
                 <div className="content-tab-container">
                   <div>
@@ -99,14 +131,14 @@ const Portfolio = () => {
                     >
                       {codeItems}
                     </div>
-                    <div
+                    {/* <div
                       className={`tab_content ${getActiveClass(
                         4,
                         "active-content"
                       )}`}
                     >
                       {brandItems}
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
