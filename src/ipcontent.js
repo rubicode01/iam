@@ -1,4 +1,14 @@
+import HybridDesk from "./img/HybridDesk.png";
+import fourBlog from "./img/fourBlog.png";
+import Pokemon from "./img/Pokemon.png";
+import ConeTwo from "./img/ConeTwo.png";
+
+import GatoradeFitness from "./img/GatoradeFitness.png";
+import LaysWebsite from "./img/LaysWebsite.png";
+import PunicaWebsite from "./img/PunicaWebsite.png";
+
 const logo = "IP";
+
 const meta = {
   title: "IP [Design+Code]",
   description: "Design meets Code",
@@ -6,22 +16,22 @@ const meta = {
 };
 
 const datahome = {
-  title: "Design meets Code ",
+  title: "Digital Design ",
   description: "lorem ipsum",
   content: "",
 };
 
 const dataabout = {
-  title: "ABOUT",
-  description: "I'm a Designer",
-  content:
-    "Vom alltag inspieriert, um neue Nutzererlebnisse und kreative Lösungen zu schaffen",
-  info: "Ich bin Webdesigner, und ich bin sehr leidenschaftlich und engagiert bei meiner Arbeit. Mit 20 Jahren Erfahrung als professioneller Webentwickler habe ich mir die Fähigkeiten und Kenntnisse angeeignet, die notwendig sind, um Ihr Projekt zum Erfolg zu führen. Ich genieße jeden Schritt des Designprozesses, von der Diskussion bis zur Zusammenarbeit.",
+  title: "wer ich bin",
+  description: "Vom alltag inspiriert",
+  content: "Individuelle Nutzererlebnisse und kreative Lösungen schaffen",
+  info: "",
 };
 
 const datatimeline = {
-  title: "Timeline",
-  description: "mein Werdegang",
+  title: "was ich bisher gemacht habe",
+  description: "Erfahrungen nutzen",
+  content: "",
   timeline: [
     {
       id: 1,
@@ -74,65 +84,101 @@ const datatimeline = {
   ],
 };
 
-const dataskills = {
-  title: "Web & App Design & Grafiken",
-  description: "was ich kann",
-  info: "Ich habe hohe Fähigkeiten in der Entwicklung und Programmierung. Ich arbeite an einer professionellen, visuell anspruchsvollen und technologisch kompetenten, reaktionsschnellen und multifunktionalen persönlichen Portfolio-Vorlage.",
-  skills: [
+const dataportfolio = {
+  title: "Design trifft Code",
+  description: "Inspirieren lassen?",
+
+  content: "",
+
+  portfolio: [
     {
-      name: "Graphic-Design",
-      value: 75,
+      img: HybridDesk,
+      headline: "HybridDesk-App",
+      description:
+        "Frontend -und Backendprogrammierung (Ionic-React, Bootstrap & MongoDB)",
+      link: "https://hybrid-desk.netlify.app/login",
+      tag: "code",
     },
     {
-      name: "HTML, CSS & Frameworks",
-      value: 80,
+      img: fourBlog,
+      headline: "Blog4Groups",
+      description: "Frontend -und Backendprogrammierung ",
+      skills: "(React, Bootstrap & postgreSQL)",
+      link: "https://blog4groups.netlify.app/",
+      tag: "code",
     },
     {
-      name: "Frontend",
-      value: 70,
-    },
-    {
-      name: "Backend",
-      value: 70,
+      img: LaysWebsite,
+      headline: "Lay's Website Relaunch 2015",
+      description: "Design und Frontend-Programmierung",
+      skills: "(HTML, CSS & jQuery)",
+      tag: "code",
     },
 
     {
-      name: "Xtras",
-      value: 95,
+      img: Pokemon,
+      headline: "Pokemon Website",
+      description: "Fronten- und Backendprogammierung",
+      skills: "(React, Bootstrap & MongoDB)",
+      link: "https://github.com/rubicode01",
+      tag: "code",
+    },
+    {
+      img: ConeTwo,
+      headline: "Con-E",
+      description: "Internes Icon zur Einführung von O365",
+      tag: "design",
+    },
+    {
+      img: GatoradeFitness,
+      headline: "Gatorade Fitness",
+      description: "Zielgruppengerichtete Designüberarbeitung",
+      tag: "design",
+    },
+
+    {
+      img: PunicaWebsite,
+      headline: "Punica Website Relaunch 2016",
+      description: "Design und Mock-up",
+      tag: "design",
     },
   ],
 };
 
-const dataportfolio = {
-  title: "Meine Arbeiten",
-  description: "inspirationen",
-  portfolio: [
+const dataskills = {
+  title: "Ein paar Fakten",
+  description: "Was ich kann und was ich besser sein lassen sollte",
+  content: "",
+
+  info: "",
+  skills: [
     {
-      img: "https://picsum.photos/400/600/?grayscale",
-      description: "DESIGN in the elimination of non-essentials.",
-      link: "#",
-      tag: "design",
+      name: "Design",
+      skills: "Adobe Creative Suit",
+      value: 86.3,
+      resume: "man lernt doch nie aus :-)",
     },
     {
-      img: "https://picsum.photos/400/600/?grayscale",
-      description:
-        "CODE: The wisdom of life consists in the elimination of non-essentials.",
-      link: "#",
-      tag: "code",
+      name: "Code ",
+      skills: "(HTML, CSS, JS, Frameworks, SQL & noSQL",
+      value: 63.4,
+      resume: "tendenz steigend",
     },
     {
-      img: "https://picsum.photos/400/600/?grayscale",
-      description:
-        "BRAND: The wisdom of life consists in the elimination of non-essentials.",
-      link: "#",
-      tag: "brand",
+      name: "Gärtnern",
+      value: 30,
+      resume: "bei mir wächst kein Gras",
     },
     {
-      img: "https://picsum.photos/400/600/?grayscale",
-      description:
-        "BRAND: The wisdom of life consists in the elimination of non-essentials.",
-      link: "#",
-      tag: "brand",
+      name: "Kochen",
+      value: 90,
+      resume: "entspanndend",
+    },
+
+    {
+      name: "Organisation und Sturkturierung",
+      value: 90,
+      resume: "kleiner Sauberkeitsfanatiker :-)",
     },
   ],
 };
@@ -161,7 +207,6 @@ export {
   logo,
   meta,
   datahome,
-  // dataintro,
   dataabout,
   datatimeline,
   dataskills,

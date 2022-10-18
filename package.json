@@ -24,6 +24,7 @@
     "react-tabs": "^5.1.0",
     "sass": "^1.55.0",
     "styled-components": "^5.3.6",
+    "swiper": "^8.4.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

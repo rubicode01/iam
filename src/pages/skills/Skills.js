@@ -11,9 +11,15 @@ const Skills = () => {
         <div className="container">
           <div className="about_inner">
             <div className="left" data-aos="fade-in">
-              <span className="title">skills</span>
-              <h2>{dataskills.title}</h2>
-              <p>{dataskills.info}</p>
+              <span className="title">{dataskills.title}</span>
+              <h2>{dataskills.description}</h2>
+              <p>
+                Ich kann wahrhaft nicht alles aber Herausforderungen finde ich
+                spannend. <br />
+                Komplexe Probleme lösen und das Benutzererlebnis von Grund auf
+                zu planen - von der Recherche und dem Nutzen bis hin zum
+                visuellen und technischem Anspruch - sind meine Leidenschaft.
+              </p>
             </div>
 
             <div className="right">
@@ -27,9 +33,11 @@ const Skills = () => {
                           className="progress-bar"
                           style={{
                             width: `${data.value}%`,
+                            resume: `${data.resume}%`,
                           }}
                         >
                           <div className="progress-value">{data.value}%</div>
+                          <p className="progress-value-text">{data.resume}</p>
                         </div>
                       </div>
                     </div>

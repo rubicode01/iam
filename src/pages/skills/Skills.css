@@ -45,6 +45,16 @@
   color: var(--text-color);
 }
 
+.progress-value-text {
+  position: absolute;
+  top: -30px;
+  right: 70px;
+
+  font-size: 13px;
+  font-style: italic;
+  color: var(--text-color);
+}
+
 @-webkit-keyframes animate-positive {
   0% {
     width: 0%;
