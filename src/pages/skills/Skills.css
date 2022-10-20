@@ -1,26 +1,6 @@
-.sec_sp {
-  margin-bottom: calc(3rem + 5.128vw);
-}
-
-.table td,
-.table th {
-  color: var(--text-color);
-}
-
-.t_border {
-  border-color: var(--text-color) !important;
-}
-
-.progress-title {
-  font-size: 16px;
-  font-weight: 700;
-  margin: 15px 0 20px;
-  font-family: "Raleway";
-}
-
 .progress {
   height: 5px;
-  background: var(--secondary);
+  background: #d4c8c9;
   border-radius: 0;
   box-shadow: none;
   margin-bottom: 30px;
@@ -29,7 +9,7 @@
 
 .progress .progress-bar {
   position: relative;
-  background: var(--text-color);
+  background: black;
   animation: animate-positive 2s;
   overflow: visible;
   opacity: 0.9;
@@ -40,19 +20,16 @@
   top: -30px;
   right: 8px;
   font-size: 17px;
-  font-weight: bold;
-  font-style: italic;
-  color: var(--text-color);
+  color: black;
 }
 
 .progress-value-text {
   position: absolute;
-  top: -30px;
-  right: 70px;
+  animation: animate-positive 2s;
 
   font-size: 13px;
   font-style: italic;
-  color: var(--text-color);
+  color: black;
 }
 
 @-webkit-keyframes animate-positive {
@@ -66,21 +43,6 @@
     width: 0%;
   }
 }
-
-.section-title {
-  font-size: 45px;
-}
-
-.service__title {
-  padding: 8px 0;
-  border-bottom: solid 2px var(--secondary-color);
-}
-
-.service-section .service-category-title {
-  padding-bottom: 4px;
-}
-
-/*! CSS Used keyframes */
 
 @-webkit-keyframes fadeInUp {
   0% {

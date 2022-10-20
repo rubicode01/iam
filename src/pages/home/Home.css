@@ -1,4 +1,4 @@
-.home {
+/* .home {
   flex: 1 0 auto;
   position: relative;
   background-color: #d4c9c9;
@@ -7,8 +7,8 @@
   -webkit-transition: all 0.5s ease-in;
   -o-transition: all 0.5s ease-in;
   transition: all 0.5s ease-in;
-}
-
+} */
+/* 
 .intro_sec {
   height: calc(100vh - 60px);
   min-height: 700px;
@@ -161,9 +161,9 @@
   position: absolute;
   width: 250px;
   height: 220px;
-  border-radius: 100%;
-  /* mix-blend-mode: multiply; */
-  background-color: #2f514e;
+  border-radius: 100%; */
+/* mix-blend-mode: multiply; */
+/* background-color: #2f514e;
   z-index: 9999999999;
   display: flex;
   align-items: center;
@@ -210,68 +210,4 @@
 
 .intro_sec .h_bg-image {
   filter: saturate(0.5);
-}
-
-/*arrow*/
-
-.arrows {
-  width: 60px;
-  height: 72px;
-  position: absolute;
-  left: 50%;
-  margin-left: -30px;
-  bottom: 20px;
-}
-
-.arrows path {
-  stroke: #000000;
-  fill: transparent;
-  stroke-width: 1px;
-  animation: arrow 4s infinite;
-  -webkit-animation: arrow 4s infinite;
-}
-
-@keyframes arrow {
-  0% {
-    opacity: 0;
-  }
-  40% {
-    opacity: 1;
-  }
-  80% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-@-webkit-keyframes arrow {
-  0% {
-    opacity: 0;
-  }
-  40% {
-    opacity: 1;
-  }
-  80% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-.arrows path.a1 {
-  animation-delay: -1s;
-  -webkit-animation-delay: -1s;
-}
-
-.arrows path.a2 {
-  animation-delay: -0.5s;
-  -webkit-animation-delay: -0.5s;
-}
-
-.arrows path.a3 {
-  animation-delay: 0s;
-  -webkit-animation-delay: 0s;
-}
+} */

@@ -1,9 +1,9 @@
 import HybridDesk from "./img/HybridDesk.png";
 import fourBlog from "./img/fourBlog.png";
-import Pokemon from "./img/Pokemon.png";
-import ConeTwo from "./img/ConeTwo.png";
+// import Pokemon from "./img/Pokemon.png";
+// import ConeTwo from "./img/ConeTwo.png";
 
-import GatoradeFitness from "./img/GatoradeFitness.png";
+// import GatoradeFitness from "./img/GatoradeFitness.png";
 import LaysWebsite from "./img/LaysWebsite.png";
 import PunicaWebsite from "./img/PunicaWebsite.png";
 
@@ -23,15 +23,17 @@ const datahome = {
 
 const dataabout = {
   title: "wer ich bin",
-  description: "Vom alltag inspiriert",
-  content: "Individuelle Nutzererlebnisse und kreative Lösungen schaffen",
+  description: "Vom Alltag inspiert",
+  content:
+    "Als Grafikerin liebe ich die Kombination aus Design und Programmieren. ",
   info: "",
 };
 
 const datatimeline = {
-  title: "was ich bisher gemacht habe",
+  title: "Meine Zeit",
   description: "Erfahrungen nutzen",
-  content: "",
+  content:
+    "Seit 2001 habe ich Freude daran, komplexe Probleme in einfache, schöne und individuelle Designs zu verwandeln.",
   timeline: [
     {
       id: 1,
@@ -48,7 +50,7 @@ const datatimeline = {
       title: "Graphic Designer",
       experience: "Berufserfahrung",
       description:
-        "Visual Design, Creative Direction, Frontend-Developer, User Experience, Project Management",
+        "Visual & Creative Design, Frontend-Developer, User Experience, Project Management",
       // buttonText: "View Backend Projects",
       date: "2004 - 2022",
       icon: "work",
@@ -58,35 +60,35 @@ const datatimeline = {
       title: "Mediengestalterin Ditial und Printmedien",
       experience: "Berufserfahrung",
       description:
-        "Visual Design, User Experience, Project Management, Frontend-Development",
+        "Visual & Creative Design, Project Management, Frontend-Development",
       // buttonText: "Company Website",
-      date: "2022 - 2004",
+      date: "2002 - 2004",
       icon: "work",
     },
     {
       id: 4,
       title: "Mediengestalterin Digital- und Printmedien",
       experience: "Berufserfahrung",
-      description: "Visual Design, Project Management",
+      description: "Visual & Creative Design",
       // buttonText: "Course Certificate",
       date: "2001 - 2002",
       icon: "work",
     },
-    {
-      id: 5,
-      title: "Mediengestalter Digital- und Printmedien",
-      experience: "Ausbildung",
-      description: "Visual Design, Frontend-Development",
-      // buttonText: "College Projects",
-      date: "1998 - 2001",
-      icon: "school",
-    },
+    // {
+    //   id: 5,
+    //   title: "Mediengestalter Digital- und Printmedien",
+    //   experience: "Ausbildung",
+    //   description: "Visual Design, Frontend-Development",
+    //   // buttonText: "College Projects",
+    //   date: "1998 - 2001",
+    //   icon: "school",
+    // },
   ],
 };
 
 const dataportfolio = {
-  title: "Design trifft Code",
-  description: "Inspirieren lassen?",
+  title: "Portfolio",
+  description: "Design & Code",
 
   content: "",
 
@@ -94,112 +96,97 @@ const dataportfolio = {
     {
       img: HybridDesk,
       headline: "HybridDesk-App",
-      description:
-        "Frontend -und Backendprogrammierung (Ionic-React, Bootstrap & MongoDB)",
+      description: "Design & Code",
+      skills: "Inonic React, Bootstrap & MongoDB",
       link: "https://hybrid-desk.netlify.app/login",
       tag: "code",
     },
     {
       img: fourBlog,
       headline: "Blog4Groups",
-      description: "Frontend -und Backendprogrammierung ",
-      skills: "(React, Bootstrap & postgreSQL)",
+      description: "Frontend & Backend",
+      skills: "React, Bootstrap & postgreSQL",
       link: "https://blog4groups.netlify.app/",
       tag: "code",
     },
     {
       img: LaysWebsite,
       headline: "Lay's Website Relaunch 2015",
-      description: "Design und Frontend-Programmierung",
-      skills: "(HTML, CSS & jQuery)",
+      description: "Design & Code",
+      skills: "HTML, CSS & jQuery",
       tag: "code",
     },
-
-    {
-      img: Pokemon,
-      headline: "Pokemon Website",
-      description: "Fronten- und Backendprogammierung",
-      skills: "(React, Bootstrap & MongoDB)",
-      link: "https://github.com/rubicode01",
-      tag: "code",
-    },
-    {
-      img: ConeTwo,
-      headline: "Con-E",
-      description: "Internes Icon zur Einführung von O365",
-      tag: "design",
-    },
-    {
-      img: GatoradeFitness,
-      headline: "Gatorade Fitness",
-      description: "Zielgruppengerichtete Designüberarbeitung",
-      tag: "design",
-    },
-
     {
       img: PunicaWebsite,
       headline: "Punica Website Relaunch 2016",
-      description: "Design und Mock-up",
+      description: "Design",
       tag: "design",
     },
+    // {
+    //   img: Pokemon,
+    //   headline: "Pokemon Website",
+    //   description: "Code Frontend & Backend",
+    //   skills: "React, Bootstrap & MongoDB",
+    //   link: "https://github.com/rubicode01",
+    //   tag: "code",
+    // },
+    // {
+    //   img: ConeTwo,
+    //   headline: "Con-E",
+    //   description: "Design",
+    //   tag: "design",
+    // },
+    // {
+    //   img: GatoradeFitness,
+    //   headline: "Gatorade Fitness",
+    //   description: "Design",
+    //   tag: "design",
+    // },
   ],
 };
 
 const dataskills = {
-  title: "Ein paar Fakten",
-  description: "Was ich kann und was ich besser sein lassen sollte",
+  title: "Meine Kentnisse",
+  description: "Spannende Bereiche",
   content: "",
 
   info: "",
   skills: [
     {
-      name: "Design",
-      skills: "Adobe Creative Suit",
-      value: 86.3,
-      resume: "man lernt doch nie aus :-)",
-    },
-    {
-      name: "Code ",
-      skills: "(HTML, CSS, JS, Frameworks, SQL & noSQL",
-      value: 63.4,
-      resume: "tendenz steigend",
-    },
-    {
-      name: "Gärtnern",
-      value: 30,
-      resume: "bei mir wächst kein Gras",
-    },
-    {
-      name: "Kochen",
+      name: "Creative Design",
+      skills: "",
       value: 90,
-      resume: "entspanndend",
+      // resume: "man lernt nie aus :-)",
     },
-
     {
-      name: "Organisation und Sturkturierung",
-      value: 90,
-      resume: "kleiner Sauberkeitsfanatiker :-)",
+      name: "Digital Design",
+      skills: "",
+      value: 80,
+      // resume: "darf gerne mehr sein",
+    },
+    {
+      name: "Frontend- & Backend Development",
+      value: 65,
+      // resume: "einfach verständlich machen",
+    },
+    {
+      name: "Projekt Management",
+      value: 80,
+      // resume: "strukturiert umsetzten...",
     },
   ],
 };
 
 const contactConfig = {
-  title: "Intersse Geweckt?",
-  subline: "ich würde mich freuen",
-  YOUR_EMAIL: "name@domain.com",
-  YOUR_FONE: "(555)123-4567",
-  description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
-  // creat an emailjs.com account
-  // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-  YOUR_SERVICE_ID: "service_id",
-  YOUR_TEMPLATE_ID: "template_id",
-  YOUR_USER_ID: "user_id",
+  title: "Kontakt",
+  description: "Gemeinsam durchstarten?",
+  content: "Lassen Sie uns gemeinsam ",
+  github: "https://github.com/rubicode01",
+  email: "mailto:rubicode01@gmx.de",
 };
 
 const datasocial = {
-  github: "https://github.com",
-  linkedin: "https://linkedin.com",
+  github: "https://github.com/rubicode01",
   email: "mailto:rubicode01@gmx.de",
 };
 

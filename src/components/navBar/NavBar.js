@@ -17,11 +17,11 @@ const NavBar = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="#about">About</Nav.Link>
+            <Nav.Link href="#about">Ich bin</Nav.Link>
             <Nav.Link href="#timeline">Timeline</Nav.Link>
             <Nav.Link href="#portfolio">Portfolio</Nav.Link>
-            <Nav.Link href="#skills">Skills</Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
+            <Nav.Link href="#skills">Erfahrung</Nav.Link>
+            <Nav.Link href="#contact">Kontact</Nav.Link>
           </Nav>
           {/* <Nav>
             <Nav.Link href="#deets">More deets</Nav.Link>

@@ -35,7 +35,7 @@ const Header = (props) => {
             duration={250}
             offset={0}
           >
-            About
+            Ich bin
           </Link>
 
           <Link
@@ -47,7 +47,7 @@ const Header = (props) => {
             duration={250}
             offset={0}
           >
-            Timeline
+            Meine Zeit
           </Link>
           {/* <Link
             onClick={() => handleCloseMenu()}
@@ -91,7 +91,7 @@ const Header = (props) => {
             duration={250}
             offset={0}
           >
-            Skills
+            Kenntnisse
           </Link>
           <Link
             onClick={() => handleCloseMenu()}
@@ -102,7 +102,7 @@ const Header = (props) => {
             duration={250}
             offset={0}
           >
-            Contact
+            Kontakt
           </Link>
         </Menu>
       </Navbar>
