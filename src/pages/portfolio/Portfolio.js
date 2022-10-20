@@ -23,15 +23,6 @@ const Portfolio = () => {
     </div>
   ));
 
-  // const brandProject = dataportfolio.portfolio.filter(
-  //   (brands) => brands.tag === "brand"
-  // );
-  // const brandItems = brandProject.map((brand) => (
-  //   <a href={brand.link} rel="noopener noreferrer" target={"_blank"}>
-  //     <img src={brand.img} alt="brand" />
-  //   </a>
-  // ));
-
   const codeProject = dataportfolio.portfolio.filter(
     (codes) => codes.tag === "code"
   );
@@ -64,7 +55,7 @@ const Portfolio = () => {
   ));
   return (
     <div className="ip_section" id="portfolio">
-      <div className="ip_about">
+      <div className="portfolio">
         <div className="container">
           <div className="about_inner">
             <div className="left">

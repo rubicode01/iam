@@ -42,8 +42,9 @@
 /* General sidebar styles */
 .bm-menu {
   background: #ffffff;
-  padding: 2.5em 0.5em 0;
-  font-size: 1.15em;
+  padding: 2.5em 2.5em 0;
+  font-size: 0.9em;
+  text-transform: uppercase;
 }
 
 /* Morph shape necessary with bubble or elastic */

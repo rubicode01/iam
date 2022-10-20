@@ -1,78 +1,53 @@
 import React from "react";
 import { datatimeline } from "../../ipcontent";
-import { Row, Card } from "react-bootstrap";
 
 const Timeline = () => {
   return (
-    <div className="ip_section" id="timeline">
+    <div className="ip_section " id="timeline">
       <div className="ip_about">
         <div className="container">
           <div className="about_inner">
-            <div className="left">
-              <span className="title">{datatimeline.title}</span>
-
-              <h2>{datatimeline.description}</h2>
-
-              <p>
-                Schon während meiner Ausbildung als Mediengestalterin für
-                Digital- und Printmedien, war ich sofort begeistert von der
-                Kombination aus "digitaler Kunst" und Programmieren. <br />
-                <br />
-                Nachdem ich meine Ausbildung abgeschlossen hatte, habe ich in
-                kleinen Agenturen gearbeitet bis ich die letzten 17 Jahren in
-                einem internationalem Unternehmen als Grafkerin in der
-                Marketingabteilung tätig war. <br />
-                <br />
-                Obwohl ich gerne schöne Designs erstelle, die einen bestimmten
-                Zweck haben und seinen Platz verdienen, wollte ich es nicht bei
-                dem klassischem „Grafik-Design“ belassen sonder mehr bewegen.
-                <br />
-                <br />
-                Ich forderte mich selbst heraus - nicht nur eigene Designideen
-                umzusetzten oder responsive Webseiten zu erstellen - ich
-                implementierte Tools die zur Prozessoptimierung dienten und das
-                arbeiten erleichterten.
-                <br />
-                <br /> 2022 entschloss ich mich meine eigenen Fähigkeiten zu
-                erweitern und eine Weiterbildung im Bereich Full-Stack
-                Development zu absolvieren.
-              </p>
+            <div className="left" data-aos="fade-up" data-aos-duration="1300">
+              <span className="title" data-aos="fade-left">
+                {datatimeline.title}
+              </span>
+              <div data-aos="fade-up" data-aos-duration="1300">
+                <h2>{datatimeline.description}</h2>
+                <p>{datatimeline.content}</p>
+              </div>
             </div>
             <div className="right">
-              <Row xs={1} md={2}>
+              <div className="active-content">
                 {datatimeline.timeline.map((data, i) => {
                   return (
-                    <Card key={i}>
-                      <Card.Body>
-                        <Card.Title>
-                          <h4>{data.title}</h4>
-                        </Card.Title>
-                        <Card.Text>
-                          {data.experience}
+                    <div
+                      className="cards"
+                      data-aos="fade-up"
+                      data-aos-duration="1300"
+                      key={i}
+                    >
+                      <p className="card-date ">
+                        {data.date}
+                        <br />
+                        <p className="card-text">{data.experience}</p>
+                        <h4>{data.title}</h4>
 
-                          <p>{data.description}</p>
-                          <p>{data.date}</p>
-                        </Card.Text>
-                      </Card.Body>
-                    </Card>
+                        <p className="card-text">{data.description}</p>
+                      </p>
+                    </div>
                   );
                 })}
-              </Row>
-
-              {/* {datatimeline.timeline.map((data, i) => {
-                return (
-                  <div key={i}>
-                    <div>
-                      <p>{data.experience}</p>
-                      <h4>{data.title}</h4>
-                      <p>{data.description}</p>
-                      <p>{data.date}</p>
-                    </div>
-                  </div>
-                );
-              })} */}
+              </div>
             </div>
           </div>
+        </div>
+        <div
+          className="ip_button"
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        >
+          <a href="#contact">interessant?</a>
         </div>
       </div>
     </div>

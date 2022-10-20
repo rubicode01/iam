@@ -1,10 +1,10 @@
 import "./App.css";
-
+import "aos/dist/aos.css";
 import Footer from "./components/footer/Footer";
 import About from "./pages/about/About";
 import Contact from "./pages/contact/Contact";
 import Home from "./pages/home/Home";
-import Portfolio from "./pages/portfolio/Portfolio";
+import PortfolioList from "./pages/portfolio/PortfolioList";
 import Skills from "./pages/skills/Skills";
 import Timeline from "./pages/timeline/Timeline";
 import ScrollButton from "./assets/ScrollButton";
@@ -18,7 +18,7 @@ function App() {
       <Home />
       <About />
       <Timeline />
-      <Portfolio />
+      <PortfolioList />
       <Skills />
       <Contact />
 
