@@ -1,15 +1,15 @@
 import "./App.css";
 import "aos/dist/aos.css";
 import Footer from "./components/footer/Footer";
-import About from "./pages/about/About";
-import Contact from "./pages/contact/Contact";
-import Home from "./pages/home/Home";
-import PortfolioList from "./pages/portfolio/PortfolioList";
-import Skills from "./pages/skills/Skills";
-import Timeline from "./pages/timeline/Timeline";
+import About from "./components/about/About";
+import Contact from "./components/contact/Contact";
+import Home from "./components/home/Home";
+import PortfolioList from "./components/portfolio/PortfolioList";
+import Skills from "./components/skills/Skills";
+import Timeline from "./components/timeline/Timeline";
 import ScrollButton from "./assets/ScrollButton";
 
-import Header from "./pages/header/Header";
+import Header from "./components/header/Header";
 
 function App() {
   return (
@@ -21,7 +21,6 @@ function App() {
       <PortfolioList />
       <Skills />
       <Contact />
-
       <ScrollButton />
       <Footer />
     </div>

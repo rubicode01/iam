@@ -15,7 +15,7 @@ const PortfolioList = () => {
                 <h2>{dataportfolio.description}</h2>
 
                 <p>
-                  Ein Auszug meiner Arbeiten. <br />
+                  Ein kleiner Auszug meiner Arbeiten. <br />
                 </p>
               </div>
             </div>
@@ -55,7 +55,7 @@ const PortfolioList = () => {
             rel="noopener noreferrer"
             target={"_blank"}
           >
-            weitere projekte?
+            Lust auf mehr?
           </a>
         </div>
       </div>

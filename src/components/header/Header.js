@@ -1,5 +1,5 @@
-import "./Header.css";
-import "../../assets/animation.css";
+import "../../assets/Header.css";
+
 import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { scaleDown as Menu } from "react-burger-menu";
@@ -15,7 +15,7 @@ const Header = (props) => {
     handleMenu(state.isOpen);
   };
   return (
-    <>
+    <div>
       <Navbar className="navbar-expand nav">
         <Navbar.Brand href="#">IP</Navbar.Brand>
 
@@ -35,7 +35,7 @@ const Header = (props) => {
             duration={250}
             offset={0}
           >
-            Ich bin
+            Über mich
           </Link>
 
           <Link
@@ -47,30 +47,9 @@ const Header = (props) => {
             duration={250}
             offset={0}
           >
-            Meine Zeit
+            Erfahrung
           </Link>
-          {/* <Link
-            onClick={() => handleCloseMenu()}
-            activeClass="active"
-            to="about"
-            spy={true}
-            smooth={true}
-            duration={250}
-            offset={50}
-          >
-            About
-          </Link> */}
-          {/* <Link
-            onClick={() => handleCloseMenu()}
-            activeClass="active"
-            to="profile"
-            spy={true}
-            smooth={true}
-            duration={250}
-            offset={50}
-          >
-            Profile
-          </Link> */}
+
           <Link
             onClick={() => handleCloseMenu()}
             activeClass="active"
@@ -91,7 +70,7 @@ const Header = (props) => {
             duration={250}
             offset={0}
           >
-            Kenntnisse
+            Know-How
           </Link>
           <Link
             onClick={() => handleCloseMenu()}
@@ -106,7 +85,7 @@ const Header = (props) => {
           </Link>
         </Menu>
       </Navbar>
-    </>
+    </div>
   );
 };
 export default Header;

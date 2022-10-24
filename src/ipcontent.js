@@ -1,9 +1,6 @@
 import HybridDesk from "./img/HybridDesk.png";
 import fourBlog from "./img/fourBlog.png";
-// import Pokemon from "./img/Pokemon.png";
-// import ConeTwo from "./img/ConeTwo.png";
 
-// import GatoradeFitness from "./img/GatoradeFitness.png";
 import LaysWebsite from "./img/LaysWebsite.png";
 import PunicaWebsite from "./img/PunicaWebsite.png";
 
@@ -16,24 +13,23 @@ const meta = {
 };
 
 const datahome = {
-  title: "Digital Design ",
-  description: "lorem ipsum",
+  title: "Designer, Coder oder beides? ",
+  description: "",
   content: "",
 };
 
 const dataabout = {
-  title: "wer ich bin",
-  description: "Vom Alltag inspiert",
-  content:
-    "Als Grafikerin liebe ich die Kombination aus Design und Programmieren. ",
+  title: "über mich",
+  description: "Ein Blick",
+  content: "Design, Marketing, Digital ",
   info: "",
 };
 
 const datatimeline = {
-  title: "Meine Zeit",
-  description: "Erfahrungen nutzen",
+  title: "erfrahungen nutzen",
+  description: "neue Perspektiven",
   content:
-    "Seit 2001 habe ich Freude daran, komplexe Probleme in einfache, schöne und individuelle Designs zu verwandeln.",
+    "Seit 2001 hatte ich das Glück an unterschiedlichsten Projekten mitzuwirken",
   timeline: [
     {
       id: 1,
@@ -41,7 +37,7 @@ const datatimeline = {
       experience: "Weiterbildung",
       description:
         "Frontend- und Backend Programmierung, Datenbanken (SQL, NoSQL), UI/UX Design, Agile Development",
-      // buttonText: "View Projects",
+
       date: "2022",
       icon: "school",
     },
@@ -50,8 +46,8 @@ const datatimeline = {
       title: "Graphic Designer",
       experience: "Berufserfahrung",
       description:
-        "Visual & Creative Design, Frontend-Developer, User Experience, Project Management",
-      // buttonText: "View Backend Projects",
+        "Visual & Creative Design, Brand-Design Frontend-Developer, User Experience, Project Management",
+
       date: "2004 - 2022",
       icon: "work",
     },
@@ -61,7 +57,7 @@ const datatimeline = {
       experience: "Berufserfahrung",
       description:
         "Visual & Creative Design, Project Management, Frontend-Development",
-      // buttonText: "Company Website",
+
       date: "2002 - 2004",
       icon: "work",
     },
@@ -70,19 +66,10 @@ const datatimeline = {
       title: "Mediengestalterin Digital- und Printmedien",
       experience: "Berufserfahrung",
       description: "Visual & Creative Design",
-      // buttonText: "Course Certificate",
+
       date: "2001 - 2002",
       icon: "work",
     },
-    // {
-    //   id: 5,
-    //   title: "Mediengestalter Digital- und Printmedien",
-    //   experience: "Ausbildung",
-    //   description: "Visual Design, Frontend-Development",
-    //   // buttonText: "College Projects",
-    //   date: "1998 - 2001",
-    //   icon: "school",
-    // },
   ],
 };
 
@@ -122,33 +109,13 @@ const dataportfolio = {
       description: "Design",
       tag: "design",
     },
-    // {
-    //   img: Pokemon,
-    //   headline: "Pokemon Website",
-    //   description: "Code Frontend & Backend",
-    //   skills: "React, Bootstrap & MongoDB",
-    //   link: "https://github.com/rubicode01",
-    //   tag: "code",
-    // },
-    // {
-    //   img: ConeTwo,
-    //   headline: "Con-E",
-    //   description: "Design",
-    //   tag: "design",
-    // },
-    // {
-    //   img: GatoradeFitness,
-    //   headline: "Gatorade Fitness",
-    //   description: "Design",
-    //   tag: "design",
-    // },
   ],
 };
 
 const dataskills = {
-  title: "Meine Kentnisse",
-  description: "Spannende Bereiche",
-  content: "",
+  title: "Know-how",
+  description: " Die Kombination",
+  content: " Visuell Werte darstellen",
 
   info: "",
   skills: [
@@ -156,23 +123,19 @@ const dataskills = {
       name: "Creative Design",
       skills: "",
       value: 90,
-      // resume: "man lernt nie aus :-)",
     },
     {
       name: "Digital Design",
       skills: "",
       value: 80,
-      // resume: "darf gerne mehr sein",
     },
     {
       name: "Frontend- & Backend Development",
       value: 65,
-      // resume: "einfach verständlich machen",
     },
     {
       name: "Projekt Management",
-      value: 80,
-      // resume: "strukturiert umsetzten...",
+      value: 85,
     },
   ],
 };

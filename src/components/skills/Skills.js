@@ -1,7 +1,7 @@
 import React from "react";
 import { dataskills } from "../../ipcontent";
 import { Col } from "react-bootstrap";
-import "./Skills.css";
+import "../../assets/Skills.css";
 
 const Skills = () => {
   return (
@@ -15,12 +15,15 @@ const Skills = () => {
               </span>
               <div data-aos="fade-up" data-aos-duration="1300">
                 <h2>{dataskills.description}</h2>
+                <p>{dataskills.content}</p>
                 <p>
-                  Komplexe Probleme lösen und Nutzererlebnisse von Grund auf zu
-                  planen sind meine Leidenschaft - von der Recherche, dem
-                  Mehrwert/Nutzen bis hin zum visuellen und technischem
-                  Anspruch. <br /> Und wenn ich mal nicht weiter weiß, frage ich
-                  Google :-)
+                  Die Kombination aus den Bereichen Design, Marketing und der
+                  Programmierung ermöglicht mir visuell anspruchsvolle,
+                  Nutzerzentrierte und technologisch kompetente Projekte zu
+                  verwirklichen. Am liebsten erstelle ich Projekte gemeinsam im
+                  Team. Individuelle Bedürfnisse jedes einzelnen, die vorab
+                  schon berücksichtig werden, führen final zur optimalen Lösung
+                  eines Projektes bei.
                 </p>
               </div>
             </div>
@@ -46,20 +49,12 @@ const Skills = () => {
                 })}
               </Col>
               <p className="progress-value-text">
-                * Da ich immer mehr dazu lerne und auch vor neuen
-                Herausforderungen stehe, stelle ich hier keine 100% ein.
+                * Ich stelle keine 100% ein. Es gibt immer neue
+                Herausforderungen :-)
               </p>
             </div>
           </div>
         </div>
-        {/* <div
-          className="ip_button"
-          data-aos="fade-right"
-          data-aos-offset="300"
-          data-aos-easing="ease-in-sine"
-        >
-          <a href="#contact">interesse geweckt?</a>
-        </div> */}
       </div>
     </div>
   );

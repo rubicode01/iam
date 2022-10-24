@@ -14,6 +14,11 @@ const Timeline = () => {
               <div data-aos="fade-up" data-aos-duration="1300">
                 <h2>{datatimeline.description}</h2>
                 <p>{datatimeline.content}</p>
+                <p>
+                  Erfahrung welche nicht nur ermöglichen, neue Perspektiven zu
+                  generieren, sondern individuelle Nutzererlebnisse und kreative
+                  Lösungen zu schaffen.
+                </p>
               </div>
             </div>
             <div className="right">
@@ -47,7 +52,7 @@ const Timeline = () => {
           data-aos-offset="300"
           data-aos-easing="ease-in-sine"
         >
-          <a href="#contact">interessant?</a>
+          <a href="#contact">Interessant?</a>
         </div>
       </div>
     </div>
