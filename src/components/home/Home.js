@@ -10,7 +10,7 @@ const Home = () => {
               <h1>
                 <span className="subline">creative</span>
                 <br />
-                &lt;design&gt;
+                &lt;design&gt;{" "}
               </h1>
             </div>
           </div>
