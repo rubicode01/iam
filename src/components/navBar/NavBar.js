@@ -1,7 +1,7 @@
 import React from "react";
 import { Nav, Navbar } from "react-bootstrap";
 import { meta } from "../../ipcontent";
-import "./NavBar.css";
+import "../../assets/NavBar.css";
 
 const NavBar = () => {
   return (
@@ -17,18 +17,12 @@ const NavBar = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="#about">Ich bin</Nav.Link>
-            <Nav.Link href="#timeline">Timeline</Nav.Link>
+            <Nav.Link href="#about">Über mich</Nav.Link>
+            <Nav.Link href="#timeline">Erfahrung</Nav.Link>
             <Nav.Link href="#portfolio">Portfolio</Nav.Link>
             <Nav.Link href="#skills">Erfahrung</Nav.Link>
             <Nav.Link href="#contact">Kontact</Nav.Link>
           </Nav>
-          {/* <Nav>
-            <Nav.Link href="#deets">More deets</Nav.Link>
-            <Nav.Link eventKey={2} href="#memes">
-              Dank memes
-            </Nav.Link>
-          </Nav> */}
         </Navbar.Collapse>
       </Navbar>
     </div>

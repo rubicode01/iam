@@ -14,7 +14,12 @@ const Contact = () => {
             </div>
             <div className="right">
               <div>
-                <div className="ip_button" data-aos="fade-left">
+                <div
+                  className="ip_button"
+                  data-aos="zoom-in"
+                  data-aos-anchor-placement
+                  data-aos-duration="1000"
+                >
                   <a href={contactConfig.email}>MAIL AN MICH</a>
                 </div>
               </div>

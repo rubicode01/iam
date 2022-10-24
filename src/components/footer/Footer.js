@@ -1,6 +1,6 @@
 import React from "react";
 import { datasocial } from "../../ipcontent";
-import "./Footer.css";
+import "../../assets/Footer.css";
 import { BsGithub, BsFillChatTextFill } from "react-icons/bs";
 
 const Footer = () => {

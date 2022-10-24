@@ -4,12 +4,8 @@
   float: right;
   width: 30px;
   height: 30px;
-
-  /* right: 36px; */
-  /* top: 36px; */
 }
 
-/* Color/shape of burger icon bars */
 .bm-burger-bars {
   background: #373a47;
 }
@@ -25,15 +21,6 @@
   width: 30px;
 }
 
-/* Color/shape of close button cross */
-/* .bm-cross {
-    background: #8d8d8d;
-  } */
-
-/*
-    Sidebar wrapper styles
-    Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
-    */
 .bm-menu-wrap {
   position: fixed;
   height: 100%;
@@ -82,15 +69,12 @@
 }
 
 .nav {
-  background-color: white;
+  /* background-color: white; */
   /* position: fixed; */
   z-index: 100 !important;
 
   padding-left: 2em;
   padding-right: 2em;
-
-  /* left: auto;
-    right: auto; */
 }
 
 .navbar-toggler:focus {
