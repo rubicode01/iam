@@ -7,13 +7,13 @@ import PunicaWebsite from "./img/PunicaWebsite.png";
 const logo = "IP";
 
 const meta = {
-  title: "IP [Design+Code]",
-  description: "Design meets Code",
+  title: "CREATIVE &lt;DESIGN&gt;",
+  description: "Design Digital",
   text: "",
 };
 
 const datahome = {
-  title: "Designer, Coder oder beides? ",
+  title: "",
   description: "",
   content: "",
 };
