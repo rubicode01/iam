@@ -1,4 +1,3 @@
-import "./App.css";
 import "aos/dist/aos.css";
 import Footer from "./components/footer/Footer";
 import About from "./components/about/About";

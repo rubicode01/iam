@@ -7,7 +7,7 @@ import PunicaWebsite from "./img/PunicaWebsite.png";
 const logo = "IP";
 
 const meta = {
-  title: "CREATIVE &lt;DESIGN&gt;",
+  title: "CREATIVE DESIGN",
   description: "Design Digital",
   text: "",
 };

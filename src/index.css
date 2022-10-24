@@ -7,14 +7,14 @@
   --overlay-color: rgb(255 255 255 / 70%);
 }
 
-[data-theme="dark"] {
+/* [data-theme="dark"] {
   --bg-color: #0c0c0c;
   --primary-color: #0d0d0d;
   --secondary-color: #fff;
   --text-color: #fff;
   --text-color-2: #fff;
   --overlay-color: rgb(12 12 12 / 63%);
-}
+} */
 
 * {
   box-sizing: border-box;
