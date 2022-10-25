@@ -1,2 +1,2 @@
 # my portfolio website
-https://ip-designandcode.netlify.app/
+<a href="https://ip-designandcode.netlify.app/">Portfolio</a>
