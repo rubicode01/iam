@@ -1,2 +1,2 @@
 # my portfolio website
- https://iam-ip.netlify.app/
+https://ip-designandcode.netlify.app/
