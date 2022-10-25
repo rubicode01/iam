@@ -26,7 +26,7 @@ const dataabout = {
 };
 
 const datatimeline = {
-  title: "erfrahungen nutzen",
+  title: "Erfahrungen nutzen",
   description: "neue Perspektiven",
   content:
     "Seit 2001 hatte ich das Glück an unterschiedlichsten Projekten mitzuwirken",
