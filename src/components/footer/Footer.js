@@ -1,7 +1,7 @@
 import React from "react";
 import { datasocial } from "../../ipcontent";
 import "../../assets/Footer.css";
-import { BsGithub, BsFillChatTextFill } from "react-icons/bs";
+import { BsGithub, BsFillEnvelopeFill } from "react-icons/bs";
 
 const Footer = () => {
   return (
@@ -19,7 +19,7 @@ const Footer = () => {
           {datasocial.email && (
             <li>
               <a href={datasocial.email}>
-                <BsFillChatTextFill />
+                <BsFillEnvelopeFill />
               </a>
             </li>
           )}

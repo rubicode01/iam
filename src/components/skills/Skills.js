@@ -17,14 +17,15 @@ const Skills = () => {
                 <h2>{dataskills.description}</h2>
                 <p>{dataskills.content}</p>
                 <p>
-                  Die Kombination aus den Bereichen Design, Marketing und der
-                  Programmierung ermöglicht mir visuell anspruchsvolle,
-                  Nutzerzentrierte und technologisch kompetente Projekte zu
-                  verwirklichen. Am liebsten erstelle ich Projekte gemeinsam im
-                  Team. Individuelle Bedürfnisse jedes einzelnen, die vorab
+                  Das Zusammenspiel aus Design, Marketing und Digital
+                  ermöglichen mir visuell anspruchsvolle und technologisch
+                  kompetente Projekte zu verwirklichen. <br />
+                  Um gemeinsam Projekte zum Erfolg zu führen, genieße ich die
+                  Brainstorming-Zeit im Team - Wünsche und Bedenken die vorab
                   schon berücksichtig werden, führen final zur optimalen Lösung
-                  eines Projektes bei.
+                  bei.
                 </p>
+                <p className="small">Alleine spielen macht keinen Spaß! :)</p>
               </div>
             </div>
 

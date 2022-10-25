@@ -15,9 +15,13 @@ const Timeline = () => {
                 <h2>{datatimeline.description}</h2>
                 <p>{datatimeline.content}</p>
                 <p>
-                  Erfahrung welche nicht nur ermöglichen, neue Perspektiven zu
-                  generieren, sondern individuelle Nutzererlebnisse und kreative
-                  Lösungen zu schaffen.
+                  Die Vielseitigkeit der Projekte, ermöglichten mir neue
+                  Perspektiven zu gewinnen, um kreative Lösungen zu schaffen und
+                  individuelle Nutzererlebnisse zu generieren.
+                </p>
+                <p className="small">
+                  Danke an alle die mich bis hierher begleitet haben - ich habe
+                  viel gelernt :)
                 </p>
               </div>
             </div>

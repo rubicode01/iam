@@ -14,9 +14,9 @@ const PortfolioList = () => {
               <div data-aos="fade-up" data-aos-duration="1300">
                 <h2>{dataportfolio.description}</h2>
 
-                <p>
+                {/* <p>
                   Ein kleiner Auszug meiner Arbeiten. <br />
-                </p>
+                </p> */}
               </div>
             </div>
             <div className="right">

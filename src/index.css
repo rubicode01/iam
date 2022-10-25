@@ -382,7 +382,7 @@ h1 {
 h1 .headline {
   padding-bottom: 3rem;
   font-weight: 800;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   text-align: center;
   animation: headline 1s ease 0s 1 normal forwards;
   word-wrap: normal;
@@ -399,6 +399,10 @@ h1 .headline {
   background-color: white;
   text-transform: uppercase;
 }
+.small {
+  font-size: 12px !important;
+  line-height: 19px !important;
+}
 
 h2 {
   font-size: 3em;
@@ -407,9 +411,7 @@ h2 {
 }
 h3 {
   font-weight: 300;
-
   letter-spacing: 0.2rem;
-
   text-transform: uppercase;
 }
 h4 {

@@ -26,10 +26,10 @@ const dataabout = {
 };
 
 const datatimeline = {
-  title: "Erfahrungen nutzen",
-  description: "neue Perspektiven",
+  title: "Gelegenheit",
+  description: "Erfahrungen nutzen",
   content:
-    "Seit 2001 hatte ich das Glück an unterschiedlichsten Projekten mitzuwirken",
+    "Seit 2001 hatte ich das Glück sowohl auf Agentur- als auch auf Unternehmensseite Erfahrungen zu sammeln.",
   timeline: [
     {
       id: 1,
@@ -113,9 +113,9 @@ const dataportfolio = {
 };
 
 const dataskills = {
-  title: "Know-how",
-  description: " Die Kombination",
-  content: " Visuell Werte darstellen",
+  title: "Visuell Werte darstellen",
+  description: "Zusammenspiel",
+  content: "",
 
   info: "",
   skills: [
