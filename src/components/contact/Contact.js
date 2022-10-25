@@ -1,5 +1,6 @@
 import React from "react";
 import { contactConfig } from "../../ipcontent";
+import { BsFillEnvelopeFill } from "react-icons/bs";
 
 const Contact = () => {
   return (
@@ -20,7 +21,9 @@ const Contact = () => {
                   data-aos-anchor-placement
                   data-aos-duration="1000"
                 >
-                  <a href={contactConfig.email}>MAIL AN MICH</a>
+                  <a href={contactConfig.email}>
+                    <BsFillEnvelopeFill /> me
+                  </a>
                 </div>
               </div>
             </div>

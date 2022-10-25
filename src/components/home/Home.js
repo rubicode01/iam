@@ -8,10 +8,17 @@ const Home = () => {
           <div className="about_inner">
             <div className="left">
               <h1>
-                <span className="subline">creative</span>
-                <br />
-                &lt;design&gt;
+                <h4 className="subline">Lust auf</h4>
+                design
+                {/* &lt;digital/&gt; */}
+                <span className="subline"> &</span> code
               </h1>
+              {/* <h1>
+                <h4 className="subline">Lust auf</h4>
+                design
+                {/* &lt;digital/&gt; 
+                <span className="subline"> & </span>digital
+              </h1> */}
             </div>
           </div>
         </div>
