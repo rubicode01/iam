@@ -18,8 +18,8 @@ const Skills = () => {
                 <p>{dataskills.content}</p>
                 <p>
                   Gemeinsam macht es doch mehr Spaß! <br />
-                  Die Kenntnisse und Fähigkeiten welche ich mir angeeignet habe,
-                  verdanke ich der Teamarbeit. <br />
+                  Meine Kenntnisse und Fähigkeiten, verdanke ich der Teamarbeit.{" "}
+                  <br />
                   Bei jedem Schritt des Designprozesses lerne ich immer wieder
                   neu dazu. Der Austausch an Erfahrungen, Wünsche und Bedenken
                   jedes einzelnen sind schlussendlich, die Leidenschaft und das
