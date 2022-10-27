@@ -10,15 +10,8 @@ const Home = () => {
               <h1>
                 <h4 className="subline">Lust auf</h4>
                 design
-                {/* &lt;digital/&gt; */}
                 <span className="subline"> &</span> code
               </h1>
-              {/* <h1>
-                <h4 className="subline">Lust auf</h4>
-                design
-                {/* &lt;digital/&gt; 
-                <span className="subline"> & </span>digital
-              </h1> */}
             </div>
           </div>
         </div>
@@ -29,7 +22,7 @@ const Home = () => {
           data-aos-easing="linear"
           data-aos-duration="500"
         >
-          <a href="#portfolio">PORTFOLIO</a>
+          <a href="#portfolio">GESPANNT?</a>
         </div>
       </div>
       <div className="arrow-div ">

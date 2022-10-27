@@ -55,7 +55,7 @@ const PortfolioList = () => {
             rel="noopener noreferrer"
             target={"_blank"}
           >
-            Lust auf mehr?
+            MEHR?
           </a>
         </div>
       </div>
