@@ -12,7 +12,6 @@ const Home = () => {
                 design
                 <span className="subline"> &</span> code
               </h1>
-             
             </div>
           </div>
         </div>
@@ -23,7 +22,7 @@ const Home = () => {
           data-aos-easing="linear"
           data-aos-duration="500"
         >
-          <a href="#portfolio">PORTFOLIO</a>
+          <a href="#portfolio">GESPANNT?</a>
         </div>
       </div>
       <div className="arrow-div ">

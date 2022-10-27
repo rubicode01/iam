@@ -20,13 +20,13 @@ const datahome = {
 
 const dataabout = {
   title: "über mich",
-  description: "Ein Blick",
+  description: "Einblick",
   content: "Design, Marketing, Digital ",
   info: "",
 };
 
 const datatimeline = {
-  title: "Gelegenheit",
+  title: "FÄHIGKEITEN",
   description: "Erfahrungen nutzen",
   content:
     "Seit 2001 hatte ich das Glück sowohl auf Agentur- als auch auf Unternehmensseite Erfahrungen zu sammeln.",
@@ -113,7 +113,7 @@ const dataportfolio = {
 };
 
 const dataskills = {
-  title: "Visuell Werte darstellen",
+  title: "Werte darstellen",
   description: "Zusammenspiel",
   content: "",
 

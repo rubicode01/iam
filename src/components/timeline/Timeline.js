@@ -20,8 +20,8 @@ const Timeline = () => {
                   individuelle Nutzererlebnisse zu generieren.
                 </p>
                 <p className="small">
-                  Danke an alle die mich bis hierher begleitet haben - ich habe
-                  viel gelernt :)
+                  Danke an alle die mich begleitet haben - ich habe viel gelernt
+                  :)
                 </p>
               </div>
             </div>
@@ -56,7 +56,7 @@ const Timeline = () => {
           data-aos-offset="300"
           data-aos-easing="ease-in-sine"
         >
-          <a href="#contact">Interessant?</a>
+          <a href="#contact">INTERESSIERT?</a>
         </div>
       </div>
     </div>

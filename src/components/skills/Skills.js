@@ -17,13 +17,13 @@ const Skills = () => {
                 <h2>{dataskills.description}</h2>
                 <p>{dataskills.content}</p>
                 <p>
-                  Das Zusammenspiel aus Design, Marketing und Digital
-                  ermöglichen mir visuell anspruchsvolle und technologisch
-                  kompetente Projekte zu verwirklichen. <br />
-                  Um gemeinsam Projekte zum Erfolg zu führen, genieße ich die
-                  Brainstorming-Zeit im Team - Wünsche und Bedenken die vorab
-                  schon berücksichtig werden, führen final zur optimalen Lösung
-                  bei.
+                  Gemeinsam macht es doch mehr Spaß! <br />
+                  Die Kenntnisse und Fähigkeiten welche ich mir angeeignet habe,
+                  verdanke ich der Teamarbeit. <br />
+                  Bei jedem Schritt des Designprozesses lerne ich immer wieder
+                  neu dazu. Der Austausch an Erfahrungen, Wünsche und Bedenken
+                  jedes einzelnen sind schlussendlich, die Leidenschaft und das
+                  Engagement, Projekte zum Erfolg zu führen.
                 </p>
                 <p className="small">Alleine spielen macht keinen Spaß! :)</p>
               </div>
@@ -50,8 +50,8 @@ const Skills = () => {
                 })}
               </Col>
               <p className="progress-value-text">
-                * Ich stelle keine 100% ein. Es gibt immer neue
-                Herausforderungen :-)
+                * Ich stelle keine 100% ein. Es gibt immer wieder Neues zu
+                entdecken :)
               </p>
             </div>
           </div>
