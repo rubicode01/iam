@@ -20,16 +20,15 @@ const datahome = {
 
 const dataabout = {
   title: "über mich",
-  description: "Einblick",
-  content: "Design, Marketing, Digital ",
+  description: "Insights",
+  content: "",
   info: "",
 };
 
 const datatimeline = {
-  title: "FÄHIGKEITEN",
-  description: "Erfahrungen nutzen",
-  content:
-    "Seit 2001 hatte ich das Glück sowohl auf Agentur- als auch auf Unternehmensseite Erfahrungen zu sammeln.",
+  title: "Erfahrungen",
+  description: "Vielfältig kreativ",
+  content: "",
   timeline: [
     {
       id: 1,
@@ -46,7 +45,7 @@ const datatimeline = {
       title: "Graphic Designer",
       experience: "Berufserfahrung",
       description:
-        "Visual & Creative Design, Brand-Design Frontend-Developer, User Experience, Project Management",
+        "Visual & Creative Design, Brand-Design, Frontend-Developer, User Experience, Project Management",
 
       date: "2004 - 2022",
       icon: "work",
@@ -75,7 +74,7 @@ const datatimeline = {
 
 const dataportfolio = {
   title: "Portfolio",
-  description: "Design & Code",
+  description: "Design & Coding",
 
   content: "",
 
@@ -113,8 +112,8 @@ const dataportfolio = {
 };
 
 const dataskills = {
-  title: "Werte darstellen",
-  description: "Zusammenspiel",
+  title: "Synergien",
+  description: "Kenntnisse",
   content: "",
 
   info: "",
@@ -130,7 +129,7 @@ const dataskills = {
       value: 80,
     },
     {
-      name: "Frontend- & Backend Development",
+      name: "Frontend & Backend Development",
       value: 65,
     },
     {

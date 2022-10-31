@@ -10,7 +10,7 @@ const Home = () => {
               <h1>
                 <h4 className="subline">Lust auf</h4>
                 design
-                <span className="subline"> &</span> code
+                <span className="subline"> &</span> coding
               </h1>
             </div>
           </div>

@@ -17,15 +17,14 @@ const Skills = () => {
                 <h2>{dataskills.description}</h2>
                 <p>{dataskills.content}</p>
                 <p>
-                  Gemeinsam macht es doch mehr Spaß! <br />
-                  Meine Kenntnisse und Fähigkeiten, verdanke ich der Teamarbeit.{" "}
+                  Die Kombination aus Graphic-Design und Marketing Know-How
+                  gepaart mit praktischen Programmierkenntnissen ermöglicht mir
+                  einen ganzheitlichen Blick auf die Anforderung der Nutzer.
                   <br />
-                  Bei jedem Schritt des Designprozesses lerne ich immer wieder
-                  neu dazu. Der Austausch an Erfahrungen, Wünsche und Bedenken
-                  jedes einzelnen sind schlussendlich, die Leidenschaft und das
-                  Engagement, Projekte zum Erfolg zu führen.
+                  Mein Ziel ist es individuelle und kreative Nutzererlebnisse zu
+                  schaffen, die sowohl hinsichtlich des Designs als auch der
+                  Funktionalität überzeugen.
                 </p>
-                <p className="small">Alleine spielen macht keinen Spaß! :)</p>
               </div>
             </div>
 
@@ -50,8 +49,7 @@ const Skills = () => {
                 })}
               </Col>
               <p className="progress-value-text">
-                * Ich stelle keine 100% ein. Es gibt immer wieder Neues zu
-                entdecken :)
+                * Ich stelle keine 100% ein. Mehr geht immer :)
               </p>
             </div>
           </div>

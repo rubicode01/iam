@@ -15,13 +15,10 @@ const Timeline = () => {
                 <h2>{datatimeline.description}</h2>
                 <p>{datatimeline.content}</p>
                 <p>
-                  Die Vielseitigkeit der Projekte, ermöglichten mir neue
-                  Perspektiven zu gewinnen, um kreative Lösungen zu schaffen und
-                  individuelle Nutzererlebnisse zu generieren.
-                </p>
-                <p className="small">
-                  Danke an alle die mich begleitet haben - ich habe viel gelernt
-                  :)
+                  Mein Weg führte mich über verschiedene Stationen - von der
+                  kleinen Agentur bis hin zum internationalen Großkonzern - und
+                  ermöglichte mir, neue Perspektiven zu gewinnen um individuelle
+                  Lösungen zu entwickeln.
                 </p>
               </div>
             </div>
