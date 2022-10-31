@@ -133,7 +133,7 @@ const dataskills = {
       value: 65,
     },
     {
-      name: "Projekt Management",
+      name: "Project Management",
       value: 85,
     },
   ],
