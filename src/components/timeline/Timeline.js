@@ -17,7 +17,7 @@ const Timeline = () => {
                 <p>
                   Mein Weg führte mich über verschiedene Stationen - von der
                   kleinen Agentur bis hin zum internationalen Großkonzern - und
-                  ermöglichte mir, neue Perspektiven zu gewinnen um individuelle
+                  ermöglichte mir neue Perspektiven zu gewinnen um individuelle
                   Lösungen zu entwickeln.
                 </p>
               </div>

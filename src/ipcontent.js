@@ -82,7 +82,7 @@ const dataportfolio = {
     {
       img: HybridDesk,
       headline: "HybridDesk-App",
-      description: "Design & Code",
+      description: "Design, Frontend & Backend Development",
       skills: "Inonic React, Bootstrap & MongoDB",
       link: "https://hybrid-desk.netlify.app/login",
       tag: "code",
@@ -90,16 +90,16 @@ const dataportfolio = {
     {
       img: fourBlog,
       headline: "Blog4Groups",
-      description: "Frontend & Backend",
-      skills: "React, Bootstrap & postgreSQL",
+      description: "Frontend & Backend Development",
+      skills: "React, Bootstrap & PostgreSQL",
       link: "https://blog4groups.netlify.app/",
       tag: "code",
     },
     {
       img: LaysWebsite,
       headline: "Lay's Website Relaunch 2015",
-      description: "Design & Code",
-      skills: "HTML, CSS & jQuery",
+      description: "Design & Frontend Development",
+      skills: "HTML, CSS",
       tag: "code",
     },
     {
