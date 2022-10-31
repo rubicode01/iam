@@ -19,16 +19,15 @@ const About = () => {
             <div className=" right" data-aos="fade-up" data-aos-duration="1300">
               <p>
                 Puh, nicht ganz einfach plötzlich eine Website über sich selbst
-                zu erstellen. <br />
-                Bisher war ich es gewohnt, Designs oder Websites für andere zu
-                erstellen und nun soll ich mich selbst präsentieren. Aber gerne
-                stelle ich mich auch dieser Herausforderung und hoffe einen
-                Einblick zu ermöglichen, wer ich bin, was mich begeistert und wo
-                ich hin will. <br />
+                zu erstellen. Bisher war ich es gewohnt Designs oder Websites
+                für andere zu erstellen und nun soll ich mich selbst
+                präsentieren. Aber gerne stelle ich mich auch dieser
+                Herausforderung und hoffe einen Einblick zu ermöglichen, wer ich
+                bin und was mich begeistert. <br />
                 <br />
                 Schon mal vorab und kurzum: <br />
-                Ich bin Graphic-Designerin, mit Marketing Know-How und der
-                Leidenschaft zur Programmierung. :-)
+                Ich bin Graphic-Designerin, mit Marketing Know-how und einem
+                Faible für Programmierung.
               </p>
             </div>
           </div>

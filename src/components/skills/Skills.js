@@ -17,7 +17,7 @@ const Skills = () => {
                 <h2>{dataskills.description}</h2>
                 <p>{dataskills.content}</p>
                 <p>
-                  Die Kombination aus Graphic-Design und Marketing Know-How
+                  Die Kombination aus Graphic-Design und Marketing Know-how
                   gepaart mit praktischen Programmierkenntnissen ermöglicht mir
                   einen ganzheitlichen Blick auf die Anforderung der Nutzer.
                   <br />
