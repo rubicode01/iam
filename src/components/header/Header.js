@@ -70,7 +70,7 @@ const Header = (props) => {
             duration={250}
             offset={0}
           >
-            Know-How
+            Synergien
           </Link>
           <Link
             onClick={() => handleCloseMenu()}
