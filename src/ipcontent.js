@@ -149,7 +149,7 @@ const contactConfig = {
 
 const datasocial = {
   github: "https://github.com/rubicode01",
-  email: "mailto:rubicode01@gmx.de",
+  email: "mailto:rubicode01@gmail.com",
 };
 
 export {
