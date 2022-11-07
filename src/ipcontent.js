@@ -130,7 +130,7 @@ const dataskills = {
     },
     {
       name: "Frontend & Backend Development",
-      value: 65,
+      value: 70,
     },
     {
       name: "Project Management",
