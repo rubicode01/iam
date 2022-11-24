@@ -91,7 +91,7 @@ const dataportfolio = {
       img: fourBlog,
       headline: "Blog4Groups",
       description: "Frontend & Backend Development",
-      skills: "React, Bootstrap & PostgreSQL",
+      skills: "React, Headless CMS (Contentful), Bootstrap & PostgreSQL",
       link: "https://blog4groups.netlify.app/",
       tag: "code",
     },
